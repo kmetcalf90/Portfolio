@@ -1,0 +1,331 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+ 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Portfolio - Kevin L. Metcalf</title>
+    <link href="/Content/css?v=MDbdFKJHBa_ctS5x4He1bMV0_RjRq8jpcIAvPpKiN6U1" rel="stylesheet" />
+
+    <script src="/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+
+
+    <script type="text/javascript">
+        var appInsights=window.appInsights||function(config){
+            function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;for(s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace","Ajax"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
+        }({
+            instrumentationKey:"4625c9f3-7a60-4499-8481-6a34efdb40cb"
+        });
+
+        window.appInsights=appInsights;
+        appInsights.trackPageView();
+    </script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Portfolio</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Home/About">About</a></li>
+                    <li><a href="/Home/Contact">Contact</a></li>
+                    <li><a href="~/Views/BlogPosts/Index.cshtml">Blog</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/Account/Register" id="registerLink">Register</a></li>
+                    <li><a href="/Account/Login" id="loginLink">Log in</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+
+        <!D
+
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="">
+            <meta name="author" content="">
+
+            <title>Kevin L. Metcalf</title>
+
+            <!-- Bootstrap Core CSS -->
+            <link href="~/assets/vendor/bootstrap/js/bootstrap.min.js" rel="stylesheet">
+
+            <!-- Theme CSS -->
+            <link href="~/assets/css/freelancer.min.css" rel="stylesheet">
+
+            <!-- Custom Fonts -->
+            <link href="~/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+            <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+            <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <![endif]-->
+
+        </head>
+
+        <body id="page-top" class="index">
+
+            <!-- Navigation -->
+            <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                        </button>
+
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden">
+                                <a href="#page-top"></a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#about">Resume</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#contact">Contact</a>
+                            </li>
+                            <li>
+                                <a href="~/Views/BlogPosts/Index.cshtml">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        @Html.ActionLink("Kevin L. Metcalf", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Portfolio", "About", "Home")</li>
+                            <li>@Html.ActionLink("Resume", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("Blog", "Index", "BlogPosts")</li>
+
+                        </ul>
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                </div>
+            </div>
+
+  
+            <section class="success" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2>Resume</h2>
+                            <hr class="star-light">
+                        </div>
+                        <center><a href="~/assets/Resume.pdf" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i> Save Resume File</a></center><br />
+                        <center>
+                            <div><b>Kevin L. Metcalf</b></div>
+                            <div><b>2107 Maple Street, Greensboro NC 27405</b></div>
+                            <div><b>kmetcalf@gtcc.edu</b></div>
+                            <div><b>(336) 686-2665</b></div><br />
+
+
+                            <div><b>SKILLS</b></div>
+
+                            <div>Mechanical skills and knowledge, Painting, Welding, Woodwork, 100+ WPM typing, Computer Hardware, Computer Software, Microsoft Office, SAP Portal,10-key, Organization, Windows, MAC-OS, Accounting basics, Customer Service and Interaction</div>
+                            <br />
+                            <div><b>EDUCATION</b></div>
+
+                            <div><u>Caldwell Community College and Technical Institute</u></div>
+                            <div>•Associate in Arts Degree 2013</div>
+
+                            <div><u>UNC-Greensboro</u></div>
+                            <div>•Information Systems and Operations Management - In Progress</div><br />
+
+                            <div><b>WORK EXPERIENCE</b></div>
+                            <div><u>BB&T Triad Corporate Center: Record Retention Management</u></div>
+
+                            <ul style="list-style-type:disc">
+                                <div>•Responsible for the handling of mortgage files in the loan department</div>
+                                <div>•Exemplified great organizational skills and attention to detail when managing paid off loans, and entries of new loans to be filed</div>
+                                <div>•Provided information to customers who wished to review the terms of their loan, or be sent certain excerpts from their file</div>
+                                <div>•Added new and revised trailing documents to existing loan files</div>
+                                <div>•Handled conversions of files from other banks that were bought, and added them into the revised system</div>
+                            </ul>
+                            <br />
+
+                            <div><u>Electri-Products Group : Inside Sales/Manufacturer’s Representative</u></div>
+
+                            <div>•Managed accounts for electrical distributors and handled delivery logistics, shipping costs, and returns</div>
+                            <div>•Informed customers on electrical equipment costs for large jobs throughout NC, VA, and SC</div>
+                            <div>•Provided customer service and advising to customers on electrical wire, underground enclosures, and PVC conduit via email and phone</div>
+                            <div>•Handled large quotes for jobs including university stadiums, vehicle production plants, and fire stations; as well as Department of Transportation jobs,</div>
+                            <div>•Maintained contact with nationwide representatives from represented companies to receive order feedback and information daily</div>
+                            <div>•Utilized SAP portal as well as other modules for handling commercial accounts, quoting material, updating order statuses, and managing deliveries</div>
+                            <br />
+
+
+
+                            <div><u>Advance Auto Parts : Mobile Parts Pro/Commercial Salesperson</u></div>
+
+                            <div>•Actively selling and engaging our customers in new products and products that they need at that moment, in person and on the phone</div>
+                            <div>•Exceeding  my individual sales goals and our store goals month over month</div>
+                            <div>•Utilized my basic math skills and computer skills accurately and efficiently</div>
+                            <div>•Responsible for monitoring inventory levels to ensure maximum profitability and product availability</div>
+                            <div>•Responsible for maintaining high standards of customer service and housekeeping</div>
+                            <br />
+
+
+                            <div><u>Lindley Habilitation : Habilitation Technician</u></div>
+
+                            <div>•Responsible for one one-on-one, direct care services to individuals with physical and developmental disabilities in the community and in clients homes</div>
+                            <div>•Trained in CPR, NCI, Bloodborne Pathogens, and Medication Administration</div>
+                            <div>•Responsible for transporting patients from their homes to their Dr. Appointments</div>
+                            <br />
+
+                            <div><u>AutoBell Car Wash : Crew Member</u></div>
+                            <div>•Responsible for detailing/cleaning automobiles and giving exceptional customer service</div>
+                            <div>•Showing a positive, courteous work attitude, with the understanding that our work is “on display” for our customers to see</div>
+                            <br />
+
+                            <div><u>Appalachian Ski Mountain : Lift Operations</u></div>
+
+                            <div>•Responsible for snow removal at loading and unloading areas, keeping them clear from the beginning of a shift to the end of my shift</div>
+                            <div>•Responsible for testing the lift equipment to make sure that it is functioning properly</div>
+                            <div>•Greeting customers, checking tickets, and assisting customers onto and off the lifts</div>
+                            <br />
+
+
+
+
+                            <div>REFERENCES	Available upon request.</div>
+
+
+                    </div>
+            </section></center>
+            <!-- Footer -->
+            <footer class="text-center">
+                <div class="footer-above">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-col col-md-4">
+                                <h3>Location</h3>
+                                <p>
+                                    1231 Shields Rd
+                                    <br>Kernersville, NC 27284
+                                </p>
+                            </div>
+                            <div class="footer-col col-md-4">
+                                <h3></h3>
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-col col-md-4">
+                                <h3>Thanks for viewing!</h3>
+                                <p>Check out the Coder Foundry!</br> <a href="http://www.coderfoundry.com/">Coder Foundry</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-below">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                Copyright &copy; Kevin Metcalf 2016
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+            <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+                <a class="btn btn-primary" href="#page-top">
+                    <i class="fa fa-chevron-up"></i>
+                </a>
+            </div>
+
+<!-- jQuery -->
+<script src="~/assets/vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="~/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="/assets/js/jqBootstrapValidation.js"></script>
+<script src="/assets/"></script>
+
+<!-- Theme JavaScript -->
+<script src="~/assets/js/freelancer.min.js"></script>
+
+</body>
+
+</html>
+
+<hr />
+<footer>
+    <p>&copy; 2016 - Kevin L. Metcalf's ASP.NET Application</p>
+</footer>
+</div>
+
+<script src="/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1"></script>
+
+<script src="/bundles/bootstrap?v=2Fz3B0iizV2NnnamQFrx-NbYJNTFeBJ2GM05SilbtQU1"></script>
+
+
+</body>
+</html>
+

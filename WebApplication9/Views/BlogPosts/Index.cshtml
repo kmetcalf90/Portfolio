@@ -1,0 +1,87 @@
+﻿@model IEnumerable<WebApplication9.Models.BlogPosts>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>@Html.Partial("_LoginPartial")</div>
+
+
+<body>
+    
+        <p>
+            @if (User.IsInRole("Admin"))
+            {
+                @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary btn-large" })
+            }
+
+
+            <div><center><h2>Posts</h2></center></div>
+
+            @foreach (var item in Model)
+            {<div>
+            <center>
+                <br />
+                <ul style="list-style-type:none">
+                    <li>
+                        @Html.DisplayFor(modelItem => item.Created)
+                    </li>
+                    <li>
+                        @Html.DisplayFor(modelItem => item.Updated)
+                    </li>
+                    <li>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </li>
+                    <li>
+                        @Html.DisplayFor(modelItem => item.Slug)
+                    </li>
+                    <li>
+                        @Html.DisplayFor(modelItem => item.Body)
+                    </li>
+                    <li>
+                        @Html.DisplayFor(modelItem => item.MediaURL)
+                    </li>
+                    <li>
+                        @Html.DisplayFor(modelItem => item.Published)
+                    </li>
+                </ul>
+            </center>
+            <center>
+
+                @Html.ActionLink("Show Comments", "View", "Shared", null, new { @class = "btn btn-primary" })
+
+                @if (User.IsInRole("Admin"))
+                {
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "btn btn-primary" })}
+
+
+                @Html.ActionLink("Details", "Details", new { id = item.id }, new { @class = "btn btn-primary" })
+
+
+
+                @if (User.IsInRole("Admin"))
+                {
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "btn btn-primary" })}
+                <br /><br /><br /><br />
+
+            </center>
+        </div>}
+
+    </Body>
+
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="/">Portfolio - Home</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+
