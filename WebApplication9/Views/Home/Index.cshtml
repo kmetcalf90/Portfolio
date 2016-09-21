@@ -181,9 +181,10 @@
                                         <i class="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="~/assets/img/portfolio/other1.png" class="img-responsive" alt="">
-                            </a>
-                        </div>
+                                 <a href="https://klmbugtracker.azurewebsites.net/"><img src="~/assets/img/portfolio/other1.png" class="img-responsive" alt=""></a>
+                                    
+                            </>
+                            </div>
                         <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
@@ -224,10 +225,10 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
-                                <h4>SKILLS</h4>
+                                <h4>PROFILE</h4>
                                 <hr style="margin-top: -10px;" />
-                                <p style="text-align: justify;">Mechanical skills and knowledge, Painting, Welding, Woodwork, 100+ WPM typing, Computer Hardware, Computer Software, Microsoft Office, SAP Portal,10-key, Organization, Windows, MAC-OS, Accounting basics, Customer Service and Interaction</p>
-                            </div>
+                                <p style="text-align: justify;">Web developer with frameworks and programming experience – C#, MVC, .NET, Javascript, CSS, HTML5, SQL, ASP.NET, Bootstrap, JQuery, LINQ, WebAPI, AngularJS – coupled with problem-solving and critical-thinking skills seeking dynamic full-time, permanent career opportunity in Piedmont Triad leveraging my technical skill set to add value and deliver results.</p>
+                        </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
@@ -249,6 +250,22 @@
                             <div class="col-sm-12">
                                 <h4>WORK EXPERIENCE</h4>
                                 <hr style="margin-top: -10px;" />
+                                <u>Coder Foundry: Web/Software Developer</u>
+                                <ul>
+                                    <li>
+                                        Produced personal portfolio and blog website using C#, MVC5 and JavaScript
+                                    </li>
+                                    <li>
+                                        Created fully functional MVC bug tracker web application, from scratch, implementing enhanced security & file uploading features
+                                    </li>
+                                    <li>
+                                        Created fully functioning car finder web application; accessed NHTSA’s car recalls database using WebAPI. Included images using Bing’s WebAPI.
+                                    </li>
+                                    <li>
+                                        Developed fully functional financial portal web application using .NET MVC framework; composed dynamic front-end design using partial views and AJAX.
+                                    </li>
+                                </ul>
+                                <br />
                                 <u>BB&T Triad Corporate Center: Record Retention Management</u>
                                 <ul>
                                     <li>
@@ -348,139 +365,103 @@
                         </div>
                     </div>
                 </div>
-                </section>
-                <!-- Contact Section -->
-                <section id="contact">
+            </section>
+            <!-- Contact Section -->
+            <section id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2>Contact Me</h2>
+                            <hr class="star-primary">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                            <form name="sentMessage" id="contactForm" novalidate>
+                                <div class="row control-group">
+                                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="row control-group">
+                                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                                        <label>Email Address</label>
+                                        <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="row control-group">
+                                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                                        <label>Phone Number</label>
+                                        <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="row control-group">
+                                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                                        <label>Message</label>
+                                        <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div id="success"></div>
+                                <div class="row">
+                                    <div class="form-group col-xs-12">
+                                        <button type="submit" class="btn btn-success btn-lg">Send</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="text-center">
+                <div class="footer-above">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-12 text-center">
-                                <h2>Contact Me</h2>
-                                <hr class="star-primary">
+                            <div class="footer-col col-md-4">
+                                <h3>Location</h3>
+                                <p>
+                                    1231 Shields Rd
+                                    <br>Kernersville, NC 27284
+                                </p>
+                            </div>
+
+
+                            <div class="footer-col col-md-4">
+                                <h3>Thanks for viewing!</h3>
+                                <p>Check out the Coder Foundry!</br> <a href="http://www.coderfoundry.com/">Coder Foundry</a></p>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="footer-below">
+                    <div class="container">
                         <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2">
-                                <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                                <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                                <form name="sentMessage" id="contactForm" novalidate>
-                                    <div class="row control-group">
-                                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                                            <label>Name</label>
-                                            <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="row control-group">
-                                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                                            <label>Email Address</label>
-                                            <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="row control-group">
-                                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                                            <label>Phone Number</label>
-                                            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="row control-group">
-                                        <div class="form-group col-xs-12 floating-label-form-group controls">
-                                            <label>Message</label>
-                                            <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div id="success"></div>
-                                    <div class="row">
-                                        <div class="form-group col-xs-12">
-                                            <button type="submit" class="btn btn-success btn-lg">Send</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Footer -->
-                <footer class="text-center">
-                    <div class="footer-above">
-                        <div class="container">
-                            <div class="row">
-                                <div class="footer-col col-md-4">
-                                    <h3>Location</h3>
-                                    <p>
-                                        1231 Shields Rd
-                                        <br>Kernersville, NC 27284
-                                    </p>
-                                </div>
-
-
-                                <div class="footer-col col-md-4">
-                                    <h3>Thanks for viewing!</h3>
-                                    <p>Check out the Coder Foundry!</br> <a href="http://www.coderfoundry.com/">Coder Foundry</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-below">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    Copyright &copy; Kevin Metcalf 2016
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-
-                <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-                <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-                    <a class="btn btn-primary" href="#page-top">
-                        <i class="fa fa-chevron-up"></i>
-                    </a>
-                </div>
-
-                <!-- Portfolio Modals -->
-                <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal">
-                            <div class="lr">
-                                <div class="rl">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-8 col-lg-offset-2">
-                                    <div class="modal-body">
-                                        <h2>FizzBuzz</h2>
-                                        <hr class="star-primary">
-                                        <html>
-                                        <body>
-
-                                            <p>
-                                                for (var i=1; i < 9; i++) {</br>
-                                                console.log(i);</br>
-                                                }</br>
-                                                for (var i=1; i < 100; i++) {</br>
-                                                if (i%3==0 && i%5==0){console.log("fizzbuzz")}</br>
-                                                else if(i%3==0){console.log("fizz");}</br>
-                                                else if (i%5==0) {console.log("buzz");} </br>
-                                                else {console.log(i);} 	</br>
-                                                }</br>
-                                            </p>
-
-                                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                                </div>
+                            <div class="col-lg-12">
+                                Copyright &copy; Kevin Metcalf 2016
                             </div>
                         </div>
                     </div>
                 </div>
+            </footer>
+
+            <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+            <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+                <a class="btn btn-primary" href="#page-top">
+                    <i class="fa fa-chevron-up"></i>
+                </a>
             </div>
-            <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+
+            <!-- Portfolio Modals -->
+            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal">
                         <div class="lr">
@@ -492,11 +473,52 @@
                         <div class="row">
                             <div class="col-lg-8 col-lg-offset-2">
                                 <div class="modal-body">
-                                    <h2>Palindrome</h2>
+                                    <h2>FizzBuzz</h2>
                                     <hr class="star-primary">
-                                    <html>
-                                    <body>
-                                        <script type="text/javascript">
+                                        <head>
+                                            <meta charset="UTF-8">
+                                            <title>FizzBuzz</title>
+                    <link rel="stylesheet" href="~/fbcss/fizzbuzzstyle.css">
+                                        <div id="container">
+                                            <form id="fizzbuzz">
+                                                <input type="text" name="start" id="start" placeholder="Starting Number">
+                                                <input type="text" name="finish" id="finish" placeholder="Finishing Number">
+                                                <br/>
+                                                <input type="submit" value="GO!" id="submit">
+
+                                            </form>
+                                            <div id="output">
+                                            </div>
+                                            <div id="error">
+                                            </div>
+                                        </div>
+                                        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+                                        <script src="~/fbjs/indexfb.js"></script>
+<br/>
+<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Palindrome</h2>
+                        <hr class="star-primary">
+                        <html>
+                        <body>
+                            <script type="text/javascript">
                                             function checkPalindrome() {
                                                 var revStr = "";
                                                 var str = document.getElementById("str").value;
@@ -511,138 +533,138 @@
                                                 }
                                             }
 
-                                        </script>
-                                        <form>
-                                            <input type="text" id="str" name="string" /><br />
-                                            <input type="submit" value="Enter" onclick="checkPalindrome();" />
-                                        </form>
-                                    </body>
-                                </html>
+                            </script>
+                            <form>
+                                <input type="text" id="str" name="string" /><br />
+                                <input type="submit" value="Enter" onclick="checkPalindrome();" />
+                            </form>
+                        </body>
+                    </html>
 
-                                <p>Type a word into the field and click the button to see if it is a palindrome!</p>
+                    <p>Type a word into the field and click the button to see if it is a palindrome!</p>
 
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Factorial</h2>
+                        <hr class="star-primary">
+
+                        <p>Factorial</p>
+
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Factorial</h2>
-                                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Bug Tracker</h2>
+                        <hr class="star-primary">
+                        <p>My Bug Tracker is an application used to keep records of software bugs in projects and allowing access and input from users placed into different roles!</p>
+                        <p><a class="btn-primary" href="https://klmbugtracker.azurewebsites.net" target="_blank ">Click Here to Visit My Bug Tracker!</a></p>
 
-                                <p>Factorial</p>
-
-                                </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Bug Tracker</h2>
-                                <hr class="star-primary">
-                                <p>My Bug Tracker is an application used to keep records of software bugs in projects and allowing access and input from users placed into different roles!</p>
-                                <p><a class="btn-primary" href="https://klmbugtracker.azurewebsites.net" target="_blank ">Click Here to Visit My Bug Tracker!</a></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
 
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
+                        <p>JS exercise</p>
+
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Project Title</h2>
-                                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Title</h2>
+                        <hr class="star-primary">
 
-                                <p>JS exercise</p>
+                        <p>JS Exercise</p>
 
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Project Title</h2>
-                                <hr class="star-primary">
+    </div>
+</div>
 
-                                <p>JS Exercise</p>
+<!-- jQuery -->
+<script src="~/assets/vendor/jquery/jquery.min.js"></script>
 
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- Bootstrap Core JavaScript -->
+<script src="~/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 
-        <!-- jQuery -->
-        <script src="~/assets/vendor/jquery/jquery.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="~/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Contact Form JavaScript -->
+<script src="~/assets/js/jqBootstrapValidation.js"></script>
+<script src="~/assets/js/contact_me.js"></script>
 
-        <!-- Plugin JavaScript -->
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!-- Theme JavaScript -->
+<script src="~/assets/js/freelancer.min.js"></script>
 
-        <!-- Contact Form JavaScript -->
-        <script src="~/assets/js/jqBootstrapValidation.js"></script>
-        <script src="~/assets/js/contact_me.js"></script>
-
-        <!-- Theme JavaScript -->
-        <script src="~/assets/js/freelancer.min.js"></script>
-
-        </body>
+</body>
 
 </html>
 

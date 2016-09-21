@@ -22,3 +22,4 @@ namespace WebApplication9.Models
         public virtual ICollection<Comments> Comments { get; set; }
     }
 }
+    

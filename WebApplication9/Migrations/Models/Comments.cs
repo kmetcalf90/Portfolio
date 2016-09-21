@@ -15,6 +15,6 @@ namespace WebApplication9.Models
         public DateTimeOffset? Updated { get; set; }
         public string UpdateReason { get; set; }
         public virtual ApplicationUser Author { get; set; }
-
+        
     }
 }
